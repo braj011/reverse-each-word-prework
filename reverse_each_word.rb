@@ -8,7 +8,17 @@ def reverse_each_word(string)
   fin_str = words.join(" ")
 end
 
-# function 2 - using collect 
+# function 2 - using .collect 
+
+def reverse_each_word(string)
+  words = string.split(" ")
+  words.each do |x|
+    x.reverse!
+  end
+  fin_str = words.join(" ")
+end
+
+
 
 
 =begin 
