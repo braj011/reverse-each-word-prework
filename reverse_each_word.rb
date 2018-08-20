@@ -1,3 +1,5 @@
+# function 1 - using .each 
+
 def reverse_each_word(string)
   words = string.split(" ")
   words.each do |x|
@@ -5,6 +7,8 @@ def reverse_each_word(string)
   end
   fin_str = words.join(" ")
 end
+
+# function 2 - using collect 
 
 
 =begin 
