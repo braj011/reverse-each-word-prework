@@ -10,7 +10,13 @@ end
 
 # function 2 - using .collect 
 
-
+def reverse_each_word(string)
+  words = string.split(" ")
+  x.collect do |x|
+    x.reverse!
+  end
+  fin_str = words.join(" ")
+end
 
 
 
